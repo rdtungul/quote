@@ -27,6 +27,7 @@ function getQuote() {
 function displayQuote(quote) {
   var quoteText = document.querySelector('.quote-text');
   quoteText.textContent = quote;
+document.querySelector('.copyQuote').innerHTML = "Copy quote ";
 }
 var newQuoteButton = document.querySelector('.new-quote');
 newQuoteButton.addEventListener('click', getQuote);
@@ -53,5 +54,6 @@ function copyElementText() {
   document.execCommand("copy");
   // removing the recently created text container
   document.body.removeChild(elem);
-  // alert("Copied the text: " + elem.value);
+  // changing the copy text into copied text
+  document.querySelector('.copyQuote').innerHTML = "Quote copied! ";
 }
