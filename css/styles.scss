@@ -108,15 +108,15 @@ blockquote {
     position: relative;
     // font-size: 10rem;
     margin: 4rem;
-    font-family: 'Poppins', 'Sans-Serif';
+    font-family: 'IM Fell French Canon', serif;
     z-index: 0;
   }
 .p::before {
     content: open-quote;
     position: absolute;
-    left: -5.5rem;
-    top: -16rem;
-    font-size: 40rem;
+    left: -4rem;
+    top: -18rem;
+    font-size: 35rem;
     color: rgba(0, 0, 0, 0.5)
   }
 
