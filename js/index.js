@@ -34,9 +34,9 @@ newQuoteButton.addEventListener('click', getQuote);
 getQuote();
 
 // target button class  new-quote
-var newQuoteButton = document.querySelector('.new-quote');
-// this is the event listener for next button
-newQuoteButton.addEventListener('click', getQuote);
+// var newQuoteButton = document.querySelector('.new-quote');
+// // this is the event listener for next button
+// newQuoteButton.addEventListener('click', getQuote);
 
 // copying the quote item
 function copyElementText() {
