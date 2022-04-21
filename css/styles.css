@@ -112,7 +112,7 @@ blockquote {
   content: open-quote;
   position: absolute;
   left: -4rem;
-  top: -18rem;
+  top: -16rem;
   font-size: 35rem;
   color: rgba(0, 0, 0, 0.5);
 }
